@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SuffSchedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u16-rz-UOJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z7U-3u-Rpn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Choose Period B" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wIF-Xt-XJ6">
+                                <rect key="frame" x="188" y="140" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="8K5-0x-v44"/>
+                                    <constraint firstAttribute="height" constant="30" id="J6w-ji-9TE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="172" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerB:" destination="vXZ-lx-hvc" eventType="touchDown" id="4x2-JY-hUB"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="wMb-dm-2nB"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Period C" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yAs-uR-bbs">
+                                <rect key="frame" x="188" y="210" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Jzb-f5-eSA"/>
+                                    <constraint firstAttribute="width" constant="225" id="awr-DL-dyI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="232" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerC:" destination="vXZ-lx-hvc" eventType="touchDown" id="B87-lc-C3r"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="o4b-Nh-SS9"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Period D" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t45-0Q-GFR">
+                                <rect key="frame" x="188" y="280" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="G0h-Hc-ncn"/>
+                                    <constraint firstAttribute="width" constant="225" id="nuq-b6-U0R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="295" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerD:" destination="vXZ-lx-hvc" eventType="touchDown" id="hX2-kr-Yla"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="knN-em-kVL"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Period E" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nda-KW-zMx">
+                                <rect key="frame" x="188" y="350" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kSu-TA-TeE"/>
+                                    <constraint firstAttribute="width" constant="225" id="zAi-sa-XoB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="353" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerE:" destination="vXZ-lx-hvc" eventType="touchDown" id="Vai-YM-uEg"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="gbG-DP-cci"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Period F" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mG0-I3-6RQ">
+                                <rect key="frame" x="188" y="420" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="2qp-aC-LBO"/>
+                                    <constraint firstAttribute="height" constant="30" id="L19-LQ-VnE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="410" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerF:" destination="vXZ-lx-hvc" eventType="touchDown" id="caY-73-dqg"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="NlX-qB-Zj0"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Period G" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2RQ-V8-NbU">
+                                <rect key="frame" x="188" y="490" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YYv-rk-fzP"/>
+                                    <constraint firstAttribute="width" constant="225" id="fXK-d2-qIb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="SubjectPickerG:" destination="vXZ-lx-hvc" eventType="touchDown" id="2rB-xR-f7b"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="O40-8v-9nZ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8g-CE-AcX">
+                                <rect key="frame" x="267" y="41" width="67" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4M-HM-3ch">
+                                <rect key="frame" x="267" y="111" width="66.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-aa-ddZ">
+                                <rect key="frame" x="267" y="181" width="67" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W85-YK-EHT">
+                                <rect key="frame" x="266" y="251" width="68.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period E" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fW-oY-3xD">
+                                <rect key="frame" x="267" y="321" width="66" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period F" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoX-gM-2hV">
+                                <rect key="frame" x="268" y="391" width="65" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Period G" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwG-TX-3jL">
+                                <rect key="frame" x="266" y="461" width="68.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Choose Period A" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xhy-BW-kDa">
+                                <rect key="frame" x="188" y="70" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KA3-pq-6bm"/>
+                                    <constraint firstAttribute="width" constant="225" id="NbV-nB-Wp1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="88" y="109" width="225" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="SubjectPickerA:" destination="vXZ-lx-hvc" eventType="touchDown" id="Cjm-h2-urc"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="zpC-E8-iTW"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uoX-gM-2hV" firstAttribute="centerX" secondItem="mG0-I3-6RQ" secondAttribute="centerX" id="04Q-M6-YPS"/>
+                            <constraint firstItem="wIF-Xt-XJ6" firstAttribute="top" secondItem="p4M-HM-3ch" secondAttribute="bottom" constant="5" id="0sw-Mu-v91"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="trailing" secondItem="yAs-uR-bbs" secondAttribute="trailing" id="3lx-UX-8NS"/>
+                            <constraint firstItem="jwG-TX-3jL" firstAttribute="centerX" secondItem="2RQ-V8-NbU" secondAttribute="centerX" id="47T-zj-iR6"/>
+                            <constraint firstItem="2RQ-V8-NbU" firstAttribute="top" secondItem="jwG-TX-3jL" secondAttribute="bottom" constant="5" id="76y-xf-f0N"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="trailing" secondItem="mG0-I3-6RQ" secondAttribute="trailing" id="949-k0-b4q"/>
+                            <constraint firstItem="W85-YK-EHT" firstAttribute="centerX" secondItem="t45-0Q-GFR" secondAttribute="centerX" id="Aaa-Yf-Qqm"/>
+                            <constraint firstItem="Xhy-BW-kDa" firstAttribute="top" secondItem="u16-rz-UOJ" secondAttribute="bottom" constant="50" id="DPH-3L-0Pb"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="top" secondItem="t45-0Q-GFR" secondAttribute="bottom" constant="40" id="G6Y-nl-j2B"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="trailing" secondItem="Xhy-BW-kDa" secondAttribute="trailing" id="Gi4-FI-ihK"/>
+                            <constraint firstItem="aoZ-aa-ddZ" firstAttribute="centerX" secondItem="yAs-uR-bbs" secondAttribute="centerX" id="Isq-gp-Pxz"/>
+                            <constraint firstItem="t8g-CE-AcX" firstAttribute="centerX" secondItem="Xhy-BW-kDa" secondAttribute="centerX" id="JnE-6n-RJF"/>
+                            <constraint firstItem="t45-0Q-GFR" firstAttribute="top" secondItem="yAs-uR-bbs" secondAttribute="bottom" constant="40" id="MoY-JI-dZs"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="leading" secondItem="Xhy-BW-kDa" secondAttribute="leading" id="PYp-5E-tLI"/>
+                            <constraint firstAttribute="centerX" secondItem="Xhy-BW-kDa" secondAttribute="centerX" id="QC0-N7-2YL"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="trailing" secondItem="wIF-Xt-XJ6" secondAttribute="trailing" id="RTz-i8-ffj"/>
+                            <constraint firstItem="8fW-oY-3xD" firstAttribute="trailing" secondItem="Nda-KW-zMx" secondAttribute="trailing" id="TVt-4M-afv"/>
+                            <constraint firstItem="yAs-uR-bbs" firstAttribute="top" secondItem="wIF-Xt-XJ6" secondAttribute="bottom" constant="40" id="TXm-aI-Pi2"/>
+                            <constraint firstItem="mG0-I3-6RQ" firstAttribute="top" secondItem="uoX-gM-2hV" secondAttribute="bottom" constant="5" id="Tb8-1A-xvy"/>
+                            <constraint firstItem="yAs-uR-bbs" firstAttribute="top" secondItem="aoZ-aa-ddZ" secondAttribute="bottom" constant="5" id="UTo-7T-Kdn"/>
+                            <constraint firstItem="mG0-I3-6RQ" firstAttribute="top" secondItem="Nda-KW-zMx" secondAttribute="bottom" constant="40" id="WPZ-La-wNs"/>
+                            <constraint firstItem="8fW-oY-3xD" firstAttribute="centerX" secondItem="Nda-KW-zMx" secondAttribute="centerX" id="ZLd-yw-qEu"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="leading" secondItem="wIF-Xt-XJ6" secondAttribute="leading" id="Zst-UK-cHb"/>
+                            <constraint firstItem="2RQ-V8-NbU" firstAttribute="leading" secondItem="Xhy-BW-kDa" secondAttribute="leading" id="aV7-1N-VtT"/>
+                            <constraint firstItem="2RQ-V8-NbU" firstAttribute="centerX" secondItem="mG0-I3-6RQ" secondAttribute="centerX" id="gE0-ay-qAP"/>
+                            <constraint firstItem="Xhy-BW-kDa" firstAttribute="top" secondItem="t8g-CE-AcX" secondAttribute="bottom" constant="5" id="hCe-ia-eNj"/>
+                            <constraint firstItem="p4M-HM-3ch" firstAttribute="centerX" secondItem="wIF-Xt-XJ6" secondAttribute="centerX" id="iOp-xY-uLR"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="leading" secondItem="mG0-I3-6RQ" secondAttribute="leading" id="iSr-fy-aEA"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="top" secondItem="8fW-oY-3xD" secondAttribute="bottom" constant="5" id="ijU-uy-93h"/>
+                            <constraint firstItem="wIF-Xt-XJ6" firstAttribute="top" secondItem="Xhy-BW-kDa" secondAttribute="bottom" constant="40" id="jhN-EQ-Hwz"/>
+                            <constraint firstItem="2RQ-V8-NbU" firstAttribute="top" secondItem="mG0-I3-6RQ" secondAttribute="bottom" constant="40" id="qp7-eK-oHf"/>
+                            <constraint firstItem="t45-0Q-GFR" firstAttribute="top" secondItem="W85-YK-EHT" secondAttribute="bottom" constant="5" id="rt2-26-TkI"/>
+                            <constraint firstItem="2RQ-V8-NbU" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="tiw-OR-RBv"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="trailing" secondItem="t45-0Q-GFR" secondAttribute="trailing" id="u04-mm-MXw"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="leading" secondItem="t45-0Q-GFR" secondAttribute="leading" id="wbc-Ne-IJT"/>
+                            <constraint firstItem="Nda-KW-zMx" firstAttribute="leading" secondItem="yAs-uR-bbs" secondAttribute="leading" id="yzw-kQ-6Hx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="TVt-4M-afv"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="PickerA" destination="Xhy-BW-kDa" id="2fg-GH-Is6"/>
+                        <outlet property="PickerB" destination="wIF-Xt-XJ6" id="o70-E9-fbG"/>
+                        <outlet property="PickerC" destination="yAs-uR-bbs" id="T2d-WV-pYG"/>
+                        <outlet property="PickerD" destination="t45-0Q-GFR" id="PBA-pC-yk9"/>
+                        <outlet property="PickerE" destination="Nda-KW-zMx" id="qXd-ve-5Sw"/>
+                        <outlet property="PickerF" destination="mG0-I3-6RQ" id="VHe-hC-Kos"/>
+                        <outlet property="PickerG" destination="2RQ-V8-NbU" id="JRj-Oo-KoQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29" y="278"/>
+        </scene>
+    </scenes>
+</document>

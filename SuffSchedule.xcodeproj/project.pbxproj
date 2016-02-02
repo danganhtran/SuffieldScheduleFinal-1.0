@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70FC15B1B885B69004E4B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70FC15A1B885B69004E4B50 /* AppDelegate.swift */; };
+		B70FC15D1B885B69004E4B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70FC15C1B885B69004E4B50 /* ViewController.swift */; };
+		B70FC1601B885B69004E4B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70FC15E1B885B69004E4B50 /* Main.storyboard */; };
+		B70FC1621B885B69004E4B50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70FC1611B885B69004E4B50 /* Images.xcassets */; };
+		B70FC1651B885B69004E4B50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70FC1631B885B69004E4B50 /* LaunchScreen.xib */; };
+		B7446E251B88BC840055F612 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7446E0E1B88B7F50055F612 /* NotificationCenter.framework */; };
+		B7446E2A1B88BC840055F612 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446E291B88BC840055F612 /* TodayViewController.swift */; };
+		B7446E2C1B88BC840055F612 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7446E2B1B88BC840055F612 /* MainInterface.storyboard */; };
+		B7446E2F1B88BC840055F612 /* ScheduleWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B7446E241B88BC840055F612 /* ScheduleWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B79345A71B885FF700C600D3 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B79345961B885FF700C600D3 /* AbstractActionSheetPicker.m */; };
+		B79345A81B885FF700C600D3 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B79345981B885FF700C600D3 /* ActionSheetCustomPicker.m */; };
+		B79345A91B885FF700C600D3 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B793459B1B885FF700C600D3 /* ActionSheetDatePicker.m */; };
+		B79345AA1B885FF700C600D3 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B793459D1B885FF700C600D3 /* ActionSheetDistancePicker.m */; };
+		B79345AB1B885FF700C600D3 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B793459F1B885FF700C600D3 /* ActionSheetLocalePicker.m */; };
+		B79345AC1B885FF700C600D3 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B79345A21B885FF700C600D3 /* ActionSheetStringPicker.m */; };
+		B79345AD1B885FF700C600D3 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79345A41B885FF700C600D3 /* DistancePickerView.m */; };
+		B79345AE1B885FF700C600D3 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B79345A61B885FF700C600D3 /* SWActionSheet.m */; };
+		B7C1BB871BD1B72100FDEBDA /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7446E291B88BC840055F612 /* TodayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7446E2D1B88BC840055F612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FC14D1B885B69004E4B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7446E231B88BC840055F612;
+			remoteInfo = ScheduleWidget;
+		};
+		B7C57E1B1BE99D2A000E32E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70FC14D1B885B69004E4B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70FC1541B885B69004E4B50;
+			remoteInfo = SuffSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4D084C71B890F56003B5996 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7446E1D1B88B7F50055F612 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B7446E2F1B88BC840055F612 /* ScheduleWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B70FC1551B885B69004E4B50 /* SuffSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuffSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70FC1591B885B69004E4B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70FC15A1B885B69004E4B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B70FC15C1B885B69004E4B50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B70FC15F1B885B69004E4B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B70FC1611B885B69004E4B50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B70FC1641B885B69004E4B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7446E0E1B88B7F50055F612 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		B7446E241B88BC840055F612 /* ScheduleWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ScheduleWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7446E281B88BC840055F612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7446E291B88BC840055F612 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		B7446E2B1B88BC840055F612 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		B79345951B885FF700C600D3 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		B79345961B885FF700C600D3 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		B79345971B885FF700C600D3 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		B79345981B885FF700C600D3 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		B79345991B885FF700C600D3 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		B793459A1B885FF700C600D3 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		B793459B1B885FF700C600D3 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		B793459C1B885FF700C600D3 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		B793459D1B885FF700C600D3 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		B793459E1B885FF700C600D3 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		B793459F1B885FF700C600D3 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		B79345A01B885FF700C600D3 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		B79345A11B885FF700C600D3 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		B79345A21B885FF700C600D3 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		B79345A31B885FF700C600D3 /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		B79345A41B885FF700C600D3 /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		B79345A51B885FF700C600D3 /* SWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		B79345A61B885FF700C600D3 /* SWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		B79345AF1B88603700C600D3 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		B7984CAC1BBAC7A3005BBC33 /* SuffSchedule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SuffSchedule.entitlements; sourceTree = "<group>"; };
+		B7BB18EB1BC6F07300434741 /* ScheduleWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ScheduleWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B70FC1521B885B69004E4B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7446E211B88BC840055F612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7446E251B88BC840055F612 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70FC14C1B885B69004E4B50 = {
+			isa = PBXGroup;
+			children = (
+				B70FC1571B885B69004E4B50 /* SuffSchedule */,
+				B7446E261B88BC840055F612 /* ScheduleWidget */,
+				B7446E0D1B88B7F50055F612 /* Frameworks */,
+				B70FC1561B885B69004E4B50 /* Products */,
+				B79345941B885FF700C600D3 /* Pickers */,
+			);
+			sourceTree = "<group>";
+		};
+		B70FC1561B885B69004E4B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70FC1551B885B69004E4B50 /* SuffSchedule.app */,
+				B7446E241B88BC840055F612 /* ScheduleWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70FC1571B885B69004E4B50 /* SuffSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				B7984CAC1BBAC7A3005BBC33 /* SuffSchedule.entitlements */,
+				B70FC15A1B885B69004E4B50 /* AppDelegate.swift */,
+				B70FC15C1B885B69004E4B50 /* ViewController.swift */,
+				B70FC15E1B885B69004E4B50 /* Main.storyboard */,
+				B70FC1611B885B69004E4B50 /* Images.xcassets */,
+				B70FC1631B885B69004E4B50 /* LaunchScreen.xib */,
+				B70FC1581B885B69004E4B50 /* Supporting Files */,
+				B79345AF1B88603700C600D3 /* Header.h */,
+			);
+			path = SuffSchedule;
+			sourceTree = "<group>";
+		};
+		B70FC1581B885B69004E4B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70FC1591B885B69004E4B50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7446E0D1B88B7F50055F612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7446E0E1B88B7F50055F612 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7446E261B88BC840055F612 /* ScheduleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B7BB18EB1BC6F07300434741 /* ScheduleWidget.entitlements */,
+				B7446E291B88BC840055F612 /* TodayViewController.swift */,
+				B7446E2B1B88BC840055F612 /* MainInterface.storyboard */,
+				B7446E271B88BC840055F612 /* Supporting Files */,
+			);
+			path = ScheduleWidget;
+			sourceTree = "<group>";
+		};
+		B7446E271B88BC840055F612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7446E281B88BC840055F612 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B79345941B885FF700C600D3 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				B79345951B885FF700C600D3 /* AbstractActionSheetPicker.h */,
+				B79345961B885FF700C600D3 /* AbstractActionSheetPicker.m */,
+				B79345971B885FF700C600D3 /* ActionSheetCustomPicker.h */,
+				B79345981B885FF700C600D3 /* ActionSheetCustomPicker.m */,
+				B79345991B885FF700C600D3 /* ActionSheetCustomPickerDelegate.h */,
+				B793459A1B885FF700C600D3 /* ActionSheetDatePicker.h */,
+				B793459B1B885FF700C600D3 /* ActionSheetDatePicker.m */,
+				B793459C1B885FF700C600D3 /* ActionSheetDistancePicker.h */,
+				B793459D1B885FF700C600D3 /* ActionSheetDistancePicker.m */,
+				B793459E1B885FF700C600D3 /* ActionSheetLocalePicker.h */,
+				B793459F1B885FF700C600D3 /* ActionSheetLocalePicker.m */,
+				B79345A01B885FF700C600D3 /* ActionSheetPicker.h */,
+				B79345A11B885FF700C600D3 /* ActionSheetStringPicker.h */,
+				B79345A21B885FF700C600D3 /* ActionSheetStringPicker.m */,
+				B79345A31B885FF700C600D3 /* DistancePickerView.h */,
+				B79345A41B885FF700C600D3 /* DistancePickerView.m */,
+				B79345A51B885FF700C600D3 /* SWActionSheet.h */,
+				B79345A61B885FF700C600D3 /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B70FC1541B885B69004E4B50 /* SuffSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70FC1741B885B69004E4B50 /* Build configuration list for PBXNativeTarget "SuffSchedule" */;
+			buildPhases = (
+				B70FC1511B885B69004E4B50 /* Sources */,
+				B70FC1521B885B69004E4B50 /* Frameworks */,
+				B70FC1531B885B69004E4B50 /* Resources */,
+				B7446E1D1B88B7F50055F612 /* Embed App Extensions */,
+				A4D084C71B890F56003B5996 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7446E2E1B88BC840055F612 /* PBXTargetDependency */,
+			);
+			name = SuffSchedule;
+			productName = SuffSchedule;
+			productReference = B70FC1551B885B69004E4B50 /* SuffSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7446E231B88BC840055F612 /* ScheduleWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7446E301B88BC840055F612 /* Build configuration list for PBXNativeTarget "ScheduleWidget" */;
+			buildPhases = (
+				B7446E201B88BC840055F612 /* Sources */,
+				B7446E211B88BC840055F612 /* Frameworks */,
+				B7446E221B88BC840055F612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C57E1C1BE99D2A000E32E7 /* PBXTargetDependency */,
+			);
+			name = ScheduleWidget;
+			productName = ScheduleWidget;
+			productReference = B7446E241B88BC840055F612 /* ScheduleWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70FC14D1B885B69004E4B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Dan;
+				TargetAttributes = {
+					B70FC1541B885B69004E4B50 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 29D29SXY2C;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					B7446E231B88BC840055F612 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 29D29SXY2C;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B70FC1501B885B69004E4B50 /* Build configuration list for PBXProject "SuffSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B70FC14C1B885B69004E4B50;
+			productRefGroup = B70FC1561B885B69004E4B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B70FC1541B885B69004E4B50 /* SuffSchedule */,
+				B7446E231B88BC840055F612 /* ScheduleWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70FC1531B885B69004E4B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70FC1601B885B69004E4B50 /* Main.storyboard in Resources */,
+				B70FC1651B885B69004E4B50 /* LaunchScreen.xib in Resources */,
+				B70FC1621B885B69004E4B50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7446E221B88BC840055F612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7446E2C1B88BC840055F612 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B70FC1511B885B69004E4B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79345AD1B885FF700C600D3 /* DistancePickerView.m in Sources */,
+				B79345AC1B885FF700C600D3 /* ActionSheetStringPicker.m in Sources */,
+				B79345AA1B885FF700C600D3 /* ActionSheetDistancePicker.m in Sources */,
+				B79345A81B885FF700C600D3 /* ActionSheetCustomPicker.m in Sources */,
+				B79345A91B885FF700C600D3 /* ActionSheetDatePicker.m in Sources */,
+				B79345AE1B885FF700C600D3 /* SWActionSheet.m in Sources */,
+				B79345A71B885FF700C600D3 /* AbstractActionSheetPicker.m in Sources */,
+				B70FC15D1B885B69004E4B50 /* ViewController.swift in Sources */,
+				B7C1BB871BD1B72100FDEBDA /* TodayViewController.swift in Sources */,
+				B79345AB1B885FF700C600D3 /* ActionSheetLocalePicker.m in Sources */,
+				B70FC15B1B885B69004E4B50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7446E201B88BC840055F612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7446E2A1B88BC840055F612 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7446E2E1B88BC840055F612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7446E231B88BC840055F612 /* ScheduleWidget */;
+			targetProxy = B7446E2D1B88BC840055F612 /* PBXContainerItemProxy */;
+		};
+		B7C57E1C1BE99D2A000E32E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B70FC1541B885B69004E4B50 /* SuffSchedule */;
+			targetProxy = B7C57E1B1BE99D2A000E32E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B70FC15E1B885B69004E4B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70FC15F1B885B69004E4B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B70FC1631B885B69004E4B50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70FC1641B885B69004E4B50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B70FC1721B885B69004E4B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Suffield Schedule";
+				PROVISIONING_PROFILE = "b55d8fbd-3d42-4135-9635-f35bc08fd9e6";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B70FC1731B885B69004E4B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Suffield Schedule";
+				PROVISIONING_PROFILE = "b55d8fbd-3d42-4135-9635-f35bc08fd9e6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B70FC1751B885B69004E4B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuffSchedule/SuffSchedule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = SuffSchedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.suffieldacademy.app.SuffSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SuffSchedule/Header.h;
+			};
+			name = Debug;
+		};
+		B70FC1761B885B69004E4B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuffSchedule/SuffSchedule.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = SuffSchedule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.suffieldacademy.app.SuffSchedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = SuffSchedule/Header.h;
+			};
+			name = Release;
+		};
+		B7446E311B88BC840055F612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ScheduleWidget/ScheduleWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScheduleWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.suffieldacademy.app.SuffSchedule.ScheduleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7446E321B88BC840055F612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ScheduleWidget/ScheduleWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = ScheduleWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.suffieldacademy.app.SuffSchedule.ScheduleWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B70FC1501B885B69004E4B50 /* Build configuration list for PBXProject "SuffSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70FC1721B885B69004E4B50 /* Debug */,
+				B70FC1731B885B69004E4B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70FC1741B885B69004E4B50 /* Build configuration list for PBXNativeTarget "SuffSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70FC1751B885B69004E4B50 /* Debug */,
+				B70FC1761B885B69004E4B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7446E301B88BC840055F612 /* Build configuration list for PBXNativeTarget "ScheduleWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7446E311B88BC840055F612 /* Debug */,
+				B7446E321B88BC840055F612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B70FC14D1B885B69004E4B50 /* Project object */;
+}
