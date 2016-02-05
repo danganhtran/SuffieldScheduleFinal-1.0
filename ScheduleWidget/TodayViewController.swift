@@ -12,9 +12,9 @@ import NotificationCenter
 
 let date = NSDate()
 //let date_as_EST = date.toTimezone("EST")
-let weekday = 2//date_as_EST!.weekday
-let hours = 3
-let endoftheday = 15
+var weekday = 2//date_as_EST!.weekday
+var hours = 3
+var endoftheday = 15
 
 
 class TodayViewController: UIViewController, NCWidgetProviding {
@@ -39,6 +39,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         super.viewDidLoad()
         self.updateSchedule()
         let time = getCurrentDateAndTime()
+        print("wtf")
         print(time.dayoftheweek)
     }
     
@@ -66,16 +67,16 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         let date = NSDate() //Get current date
         
         //Formatter for time
-        let formatterTime = NSDateFormatter()
-        formatterTime.timeStyle = .ShortStyle //Set style of time
-        let timeString = formatterTime.stringFromDate(date) //Convert to String
+        let formatter = NSDateFormatter()
+        formatter.timeStyle = .ShortStyle //Set style of time
+        let timeString = formatter.stringFromDate(date) //Convert to String
         
         
         //Formatter for date
-        let formatterDate = NSDateFormatter()
-        formatterDate.dateFormat = "EEEE" //Set style of date
-        let dateString = formatterDate.stringFromDate(date) //Convert to String
+        formatter.dateFormat = "EEEE" //Set style of date
+        let dateString = formatter.stringFromDate(date) //Convert to String
         let dayInt = StringToInt(dateString)
+        weekday = dayInt
         return (dateString, timeString, dayInt) //Returns a Tuple type
         
     }

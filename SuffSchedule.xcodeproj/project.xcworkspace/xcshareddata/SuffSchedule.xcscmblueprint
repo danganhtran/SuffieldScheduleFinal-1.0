@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "870C5655A0C9D23BE6752827B312341885B3DED4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "870C5655A0C9D23BE6752827B312341885B3DED4" : 0,
+    "80E46D2A82C476EF691C8049A0A4EC88E4C54854" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2C9B4B40-9EDF-4831-AE3A-5AC72D48055D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "870C5655A0C9D23BE6752827B312341885B3DED4" : "SuffieldScheduleFinal-1.0\/",
+    "80E46D2A82C476EF691C8049A0A4EC88E4C54854" : "SuffSchedule"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SuffSchedule",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SuffSchedule.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danganhtran\/SuffSchedule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80E46D2A82C476EF691C8049A0A4EC88E4C54854"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danganhtran\/SuffieldScheduleFinal-1.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "870C5655A0C9D23BE6752827B312341885B3DED4"
+    }
+  ]
+}
