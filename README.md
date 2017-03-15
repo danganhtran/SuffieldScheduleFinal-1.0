@@ -17,4 +17,4 @@ ActionSheetPicker-3.0 by Petr Korolev - https://github.com/skywinder/ActionSheet
 
 <img src= "http://i.imgur.com/vrm69Z9.png" width="290" height="500">
 
-<img src= http://i.imgur.com/dJDpaxf.png" width="290" height="500">
+<img src= "http://i.imgur.com/dJDpaxf.png" width="290" height="500">
